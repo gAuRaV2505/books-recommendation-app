@@ -1,0 +1,90 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+  }
+  :root {
+    --primary-color: #bbf7d0;
+    --dark-gray: #60a5fa;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  
+  .heading {
+    margin: 1rem auto;
+    background-color: #60a5fa;
+    display: flex;
+    justify-content: center;
+  }
+
+  .heading img {
+    height: 5rem;
+    width: 5rem;
+    /* background-color: bisque; */
+    
+  }
+
+  .heading h1{
+    margin: 1.2rem 0.5rem;
+    /* background-color: yellow; */
+  }
+
+  .recommend {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    padding: 0.5rem;
+    margin: 3rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #60a5fa;
+    font-size: x-large;
+    
+  }
+
+  .book-list {
+    display: flex;
+    background-color: #60a5fa;
+    padding: 1.5rem 2rem;
+    margin: 1rem auto;
+    width: 40%;
+    justify-content: space-between;
+    border-radius: 10rem;
+  }
+
+
+
+
+
+
+/*   
+  .inputArea {
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+  }
+  
+  .output {
+    font-size: xx-large;
+    margin: 0.7rem auto;
+    padding: 5px;
+    color: #16a34a;
+  }
+
+  .emoji-div {
+    margin: 1rem;
+  }
+
+  .emoji {
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  } */
+  
