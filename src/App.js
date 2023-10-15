@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import Logo from '../src/utils/undraw_coding_re_iv62.svg';
 import './App.css';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 const bks = {
     NonFiction: [{name: "How to win friends and Influence People",rating:"5/5"},{name: "Sapiens: A Brief History of HumanKind",rating:"4/5"}],
